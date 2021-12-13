@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 2,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 3,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 3,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 4,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 5,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  },
+  {
+    "id": 6,
+    "type": "T-Shirt",
+    "image": "jackets.png"
+  }
+]
