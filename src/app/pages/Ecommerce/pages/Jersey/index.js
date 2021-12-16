@@ -16,7 +16,7 @@ function Jersey(params) {
   return (
     <div>
       <div className='container mx-auto'>
-        <div className='grid grid-cols-1 md:grid-cols-6 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
           {Data.map((ele, i) => {
             return (
               <Card className='mb-5 py-7 shadow-lg'>

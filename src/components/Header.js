@@ -3,15 +3,15 @@ import logo from '../assets/logo_1.png';
 
 function Header() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-6 gap-4 bg-gray-300 '>
-      <div className='flex  px-4'>
+    <div className=' md:grid grid-cols-3 bg-green-300  h-16 flex items-center '>
+      <div className='flex justify-start '>
         <img width={40} src={logo} />
       </div>
-      <div className='flex px-4 justify-center'>
-        <H3>CR7 Store</H3>
+      <div className='flex justify-center '>
+        <H3>CR7 cristiano Ronaldo</H3>
       </div>
-      <div className='flex  px-4 justify-end'>
-        <img width={40} src={logo} />
+      <div className='flex justify-end '>
+        <img width={40} height={40} src={logo} />
       </div>
     </div>
   );
