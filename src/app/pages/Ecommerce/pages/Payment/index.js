@@ -44,39 +44,37 @@ function PaymentScreen() {
   };
 
   return (
-    <div>
-      <div className='flex h-screen items-center  justify-center bg-gray-200'>
-        <Card className='max-w-md max-h-md  '>
-          <CardHeader color='brown' size='sm'>
-            <H5 color='white'>Pay Invoice</H5>
-          </CardHeader>
-          <CardBody>
-            <div class='grid-cols-2'>
-              <div className='mb-8'>
-                <Input type='text' color='lightBlue' size='regular' value={name} onChange={handleName} outline={true} placeholder='Name On Card' />
+    <div className='flex justify-center items-center' style={{ height: '93.4vh' }}>
+      <Card className='max-w-md max-h-md'>
+        <CardHeader color='brown' size='sm'>
+          <H5 color='white'>Pay Invoice</H5>
+        </CardHeader>
+        <CardBody>
+          <div class='grid-cols-2'>
+            <div className='mb-8'>
+              <Input type='text' color='lightBlue' size='regular' value={name} onChange={handleName} outline={true} placeholder='Name On Card' />
+            </div>
+            <div className='mb-8'>
+              <Input type='text' color='lightBlue' size='regular' value={cardNumber} onChange={handleCardNumber} outline={true} placeholder='Card Number' />
+            </div>
+            <div className=' grid grid-cols-2 gap-4'>
+              <div>
+                <Input type='text' color='lightBlue' size='regular' value={expiry} onChange={handleExpiryDate} outline={true} placeholder='Expiry Date' />
               </div>
-              <div className='mb-8'>
-                <Input type='text' color='lightBlue' size='regular' value={cardNumber} onChange={handleCardNumber} outline={true} placeholder='Card Number' />
-              </div>
-              <div className=' grid grid-cols-2 gap-4'>
-                <div>
-                  <Input type='text' color='lightBlue' size='regular' value={expiry} onChange={handleExpiryDate} outline={true} placeholder='Expiry Date' />
-                </div>
-                <div>
-                  <Input type='password' color='lightBlue' size='regular' value={cvvNumber} onChange={handleCvv} outline={true} placeholder='CVV' />
-                </div>
+              <div>
+                <Input type='password' color='lightBlue' size='regular' value={cvvNumber} onChange={handleCvv} outline={true} placeholder='CVV' />
               </div>
             </div>
-          </CardBody>
-          <CardFooter>
-            <div className='flex justify-center'>
-              <Button color='lightBlue' buttonType='filled' size='lg' ripple='dark'>
-                Pay Now
-              </Button>
-            </div>
-          </CardFooter>
-        </Card>
-      </div>
+          </div>
+        </CardBody>
+        <CardFooter>
+          <div className='flex justify-center'>
+            <Button color='lightBlue' buttonType='filled' size='lg' ripple='dark'>
+              Pay Now
+            </Button>
+          </div>
+        </CardFooter>
+      </Card>
     </div>
   );
 }

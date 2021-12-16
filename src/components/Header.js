@@ -3,7 +3,7 @@ import logo from '../assets/logo_1.png';
 
 function Header() {
   return (
-    <div className=' md:grid grid-cols-3 bg-green-300  h-16 flex items-center '>
+    <div className=' md:grid grid-cols-3 bg-green-300  h-16  flex items-center '>
       <div className='flex justify-start '>
         <img width={40} src={logo} />
       </div>

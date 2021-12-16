@@ -4,10 +4,10 @@ import Header from '../../../components/Header';
 
 const Layout = () => {
   return (
-    <>
+    <div className='min-h-screen'>
       <Header />
       <Outlet />
-    </>
+    </div>
   );
 };
 

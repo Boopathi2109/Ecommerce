@@ -20,6 +20,7 @@ const Homepage = () => {
       <Button color='yellow' buttonType='link' size='lg' ripple='dark' onClick={() => handleClickShirt()}>
         Shirt Screen
       </Button>
+      {/* <Landing /> */}
     </>
   );
 };

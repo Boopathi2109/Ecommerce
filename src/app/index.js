@@ -10,17 +10,19 @@ import SignUp from './pages/SignUp';
 
 export default function PrivateRouteNew() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<SignUp />} />
-        <Route path='eCommerce' element={<Layout />}>
-          <Route index element={<Homepage />} />
-          <Route path=':eCommerceJersey' element={<Jersey />} />
-          <Route path='shirt' element={<Shirt />} />
-          <Route path=':eCommerceJersey/payment' element={<PaymentScreen />} />
-        </Route>
-        <Route path='*' element={<Error404 />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='bg-gray-200 '>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<SignUp />} />
+          <Route path='eCommerce' element={<Layout />}>
+            <Route index element={<Homepage />} />
+            <Route path=':eCommerceJersey' element={<Jersey />} />
+            <Route path='shirt' element={<Shirt />} />
+            <Route path=':eCommerceJersey/payment' element={<PaymentScreen />} />
+          </Route>
+          <Route path='*' element={<Error404 />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
