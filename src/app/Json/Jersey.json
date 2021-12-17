@@ -2,12 +2,14 @@
   {
     "id": 1,
     "type": "T-Shirt",
-    "image": "jackets.png"
+    "image": "jackets.png",
+    "Date": "17/12/2021"
   },
   {
     "id": 2,
     "type": "T-Shirt",
-    "image": "jackets.png"
+    "image": "jackets.png",
+    "Date": "17/12/2021"
   },
   {
     "id": 3,
