@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Samudrika Silk",
+    "image": "saree3.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
+  },
+  {
+    "id": 2,
+    "name": "Kanjeevaram silk",
+    "image": "saree4.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
+  },
+  {
+    "id": 3,
+    "name": "Kanjeevaram silk",
+    "image": "saree8.jpg",
+    "Amount": "₹1200"
+  }
+]

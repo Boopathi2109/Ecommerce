@@ -44,7 +44,7 @@ function PaymentScreen() {
   };
 
   return (
-    <div className='flex justify-center items-center' style={{ height: '93.4vh' }}>
+    <div className='flex justify-center items-center' style={{ height: '86vh' }}>
       <Card className='max-w-md max-h-md'>
         <CardHeader color='brown' size='sm'>
           <H5 color='white'>Pay Invoice</H5>

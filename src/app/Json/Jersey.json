@@ -1,39 +1,60 @@
 [
   {
     "id": 1,
-    "type": "T-Shirt",
-    "image": "jackets.png",
-    "Date": "17/12/2021"
+    "name": "Samudrika Silk",
+    "image": "gold.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
   },
   {
     "id": 2,
-    "type": "T-Shirt",
-    "image": "jackets.png",
-    "Date": "17/12/2021"
+    "name": "Kanjeevaram silk",
+    "image": "pink.jpg",
+    "Amount": "₹1200"
   },
   {
     "id": 3,
-    "type": "T-Shirt",
-    "image": "jackets.png"
-  },
-  {
-    "id": 3,
-    "type": "T-Shirt",
-    "image": "jackets.png"
+    "name": "Kanjeevaram silk",
+    "image": "samudrika.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
   },
   {
     "id": 4,
-    "type": "T-Shirt",
-    "image": "jackets.png"
+    "name": "Kanjeevaram silk",
+    "image": "saree2.jpg",
+    "Amount": "₹1200"
   },
   {
     "id": 5,
-    "type": "T-Shirt",
-    "image": "jackets.png"
+    "name": "Kanjeevaram silk",
+    "image": "saree3.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
   },
   {
     "id": 6,
-    "type": "T-Shirt",
-    "image": "jackets.png"
+    "name": "Kanjeevaram silk",
+    "image": "saree4.jpg",
+    "Amount": "₹1200"
+  },
+  {
+    "id": 7,
+    "name": "Kanjeevaram silk",
+    "image": "saree5.jpg",
+    "Date": "17/12/2021",
+    "Amount": "₹1200"
+  },
+  {
+    "id": 8,
+    "name": "Kanjeevaram silk",
+    "image": "saree6.jpg",
+    "Amount": "₹1200"
+  },
+  {
+    "id": 9,
+    "name": "Kanjeevaram silk",
+    "image": "saree8.jpg",
+    "Amount": "₹1200"
   }
 ]
