@@ -5,9 +5,9 @@ const Homepage = () => {
   let navigate = useNavigate();
 
   return (
-    <>
+    <div>
       <Landing />
-    </>
+    </div>
   );
 };
 
