@@ -1,4 +1,5 @@
 import Button from '@material-tailwind/react/Button';
+import Textarea from '@material-tailwind/react/Textarea';
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import logo from './gold.jpg';
@@ -22,10 +23,10 @@ function CardItems(params) {
 
   return (
     <div className='flex items-center justify-center mt-10'>
-      <div className='max-w-lg rounded overflow-hidden shadow-lg  '>
+      <div className=' rounded overflow-hidden shadow-lg h-auto  '>
         <div className='grid md:grid-cols-2'>
           <div>
-            <img src={logo} />
+            <img src={logo} style={{ height: '460px' }} />
           </div>
           <div className='ml-3'>
             <div class='flex '>
@@ -50,6 +51,11 @@ function CardItems(params) {
                 Price :<text style={{ fontWeight: 'bold', justifyContent: 'end' }}>₹{price}</text>
               </div>
             </div>
+            <br />
+            <div className='flex mr-2'>
+              <Textarea color='lightBlue' size='regular' outline={true} placeholder='Address' />
+            </div>
+            <br />
             <Button color='lightBlue' buttonType='filled' size='sm' rounded={true} block={false} iconOnly={false} onClick={() => handleNavigate()}>
               Buy Now
             </Button>

@@ -11,7 +11,9 @@ function Header() {
         <H3>Lucifier</H3>
       </div>
       <div className='flex justify-end '>
-        <img width={40} height={40} src={logoIcon} />
+        <a target='_blank' href='https://api.whatsapp.com/send?phone=919894130402&forceIntent=true&load=loadInIOSExternalSafari'>
+          <img width={40} height={40} src={logoIcon} />
+        </a>
       </div>
     </div>
   );

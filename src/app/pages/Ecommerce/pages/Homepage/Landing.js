@@ -90,7 +90,7 @@ const Landing = () => {
           </ol>
         </div>
       </div>
-      <div className='container mx-auto mb-3 ml-3'>
+      <div className='container mx-auto mb-3 ml-9'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
           {Data.map((ele, i) => {
             return (
